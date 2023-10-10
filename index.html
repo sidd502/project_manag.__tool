@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Project Management Tool</h1>
+    </div>
+    <div class="container">
+        <div class="user-list">
+            <h2>Users</h2>
+            <ul id="user-list">
+                <li>User 1</li>
+                <li>User 2</li>
+                <li>User 3</li>
+            </ul>
+        </div>
+        <div class="task-list">
+            <h2>Tasks</h2>
+            <ul id="task-list">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+    <div class="assign-task">
+        <h2>Assign Task</h2>
+        <input type="text" id="task-name" placeholder="Task name">
+        <select id="assignee">
+            <option value="User 1">User 1</option>
+            <option value="User 2">User 2</option>
+            <option value="User 3">User 3</option>
+        </select>
+        <button id="assign-button">Assign</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

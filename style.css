@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    border: 0cqmax;
+}
+
+.header {
+    background-color: #333;
+    color: wheat;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.user-list, .task-list {
+    flex: 1;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.assign-task {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="text"], select, button {
+    margin-right: 10px;
+}
